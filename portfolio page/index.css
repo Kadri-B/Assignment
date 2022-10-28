@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+  }
+  body{
+    background-image: linear-gradient(to bottom, #e4e6e9, #f4f4f4);
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  nav{
+    background-color: #061121;
+    width: 100%;
+    height: 3em; 
+    padding-top: 2em;
+    box-shadow: 0.1em 0.1em 0.7em 0em black;
+    position: sticky;
+  }
+  nav ol{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  
+  }
+  nav ol a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .login-btn{
+    color: #061121;
+    background-color: #e4e6e9;
+    border-radius: 0.4em;
+    width: 3em;
+    padding: 0.6em 1em;
+    position: relative;
+    bottom: 0.6em;
+  
+  }
+
+.login-btn:active{
+    transform: scale(0.98);
+}
+
+.login-btn:hover{
+    background-color: #c9c8c7;
+}
+
+
+.container-one img{
+    width: 34em;
+    height: 40em;
+    position: relative;
+    top: 0.9em;
+    right: 4em;
+}
+
+.container-two img{
+    width: 35em;
+    height: 35em;
+    position: relative;
+    left: -6em;
+    top: -10em;
+}
+
+
+.container-one{
+    display: flex;
+    background-color: #e4e6e9;
+    color: #061121;
+    box-sizing: border-box;
+    padding-top: 10em;
+    padding-bottom: 0.9em;
+    padding-left: 9em;
+    padding-right: 9em;
+}
+
+.container-two{
+    display: flex;
+    background-color: #f4f4f4;
+    color: #061121;
+    box-sizing: border-box;
+    padding: 9em 9em;
+}
+
+.container-one .name{
+    font-size: 3em;
+}
+
+    .hero-text{
+   margin-top: 3em;
+   text-shadow: 0.1em 0.1em 0.5em rgb(114, 112, 112);
+ }
+
+ .details{
+   text-align: justify;
+   line-height: 1.5em;
+   color: #061121;
+   margin-top: -2em;
+ }
+
+footer{
+  background-color: #061121;
+  color: #e4e6e9;
+  height: 2em;
+  padding: 3em 3em;
+  text-align: center;
+}
+
+footer h5{
+  font-weight: lighter;
+}
+
+footer a{
+  color: #e4e6e9;
+}
